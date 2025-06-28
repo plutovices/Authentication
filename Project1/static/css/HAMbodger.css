@@ -1,0 +1,757 @@
+.box{
+    top: 89px;
+    width: auto;
+    height: 810px;
+    position: relative;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    margin:auto;
+    flex-wrap: wrap;
+    height: 520px;
+    width: 100%;
+    max-width: 1165px;
+    padding: 180px 0 100px;
+    justify-content: space-between;
+}
+
+h3{
+    font-family: 'Belanosima', sans-serif;
+}
+
+
+.potato{
+    padding: 0;
+    margin: 0;
+    width: 500px;
+    min-height: 520px;
+    left: 41%;
+    top: 25%;
+    animation: highshooterjay 2.3s ease-in-out infinite alternate;
+}
+
+.potato:hover{
+    cursor: pointer;
+}
+
+.potato:hover{
+    animation-play-state: paused;
+}
+
+@keyframes highshooterjay{
+    0% {
+        transform: translateY(0)
+    }
+
+    to {
+        transform: translateY(-20px)
+    }
+}
+
+.gorimapa{
+    width: 500px;
+    position: relative;
+    top: 0;
+    left: 0%;
+}
+
+.pork{
+    bottom: -20px;
+    left: 170px;
+    width: 180px;
+    position: absolute;
+    z-index: 2;
+}
+
+.safe{
+    width: 210px;
+    position: absolute;
+    top: 130px;
+    left: -60px;
+    z-index: 2;
+}
+
+.flex{
+    top: 330px;
+    left: -60px;
+    width: 200px;
+    position: absolute;
+    z-index: 2;
+}
+
+.three{
+    width: 210px;
+    position: absolute;
+    z-index: 2;
+    top: 90px;
+    right: -30px;
+}
+
+.sixfifty{
+    width: 210px;
+    position: absolute;
+    z-index: 2;
+    top: 332px;
+    right: -40px;
+}
+
+
+
+p{
+    font-family: 'Agdasima', sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+
+
+nav.scrolled .navbar .logo{
+    color: #ffffff;
+}
+
+.toggle_btn{
+    position: relative;
+}
+
+.toggle_btn::before{
+    content: "MENU";
+    position:absolute;
+    display: block;
+    color: #000;
+    padding: 9px 18px;
+    right: 0;
+    font-family:  DM Sans,sans-serif;
+    border-radius: 3px;
+    font-size: 15px;
+    bottom: 0%;
+    background-color: #ffffff;
+    transform: scale(0);
+    transition:
+    transform ease-in-out 0.29546s,
+    right ease-in-out 0.29546s
+     ;
+}
+
+.toggle_btn:hover::before{
+    transform: scale(1);
+    right: 5em;
+}
+
+
+.seconds a{
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: #0c1825;
+    box-shadow: 0 0 4px #000;
+    padding: 16px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    transition: background-color ease-in 0.2s;
+    font-family: 'Belanosima', sans-serif;
+} 
+
+.seconds a:hover{
+    scale: 0.5;
+    background-color:black ;
+}
+
+.seconds a.adam{
+    margin-right: 17px;
+}
+
+
+
+.apple{
+    top: 85%;
+    margin-right: 3px;
+    position: sticky;
+}
+
+.orange{
+    top: 100%;
+    position: sticky;
+    margin-right: 5px;
+}
+
+.shaki{
+    display: flex;
+}
+
+.trailer{
+    display: flex;
+    max-width: 1165px;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+}
+
+.savage{
+    display: flex;
+}
+
+.savage a{
+    background-color: #ffffff;
+    width:88px;
+    height: 88px;
+    border-radius: 25%;
+    display: flex;
+    position: relative;
+    box-shadow: 0 0 4px;
+}
+
+.toggle_btn{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    box-shadow: 0 0 7px;
+    justify-content: center;
+    align-items: center;
+    border: solid #bbb 2px;
+}
+
+
+nav.sticky .toggle_btn {
+    box-shadow: inset 0px 0px 5px 0px #1b1c1d;
+    border: solid #bbb 1px;
+}
+
+
+
+.savage a:hover{
+    cursor: context-menu;
+}
+
+.savage a i{
+    position: absolute;
+    top: 35%;
+    right: 35%;
+    font-size: 30px;
+    transition: transform ease-in-out 0.6s;
+    transition-delay: 0.25499s;
+}
+
+.savage a i:hover{
+    transform: rotate(360deg);
+    cursor: context-menu;
+}
+
+.lolly{
+    padding: 142px 16px 100px
+}
+
+h4{
+    font-family: 'Belanosima', sans-serif;
+    font-size: 29px;
+    margin: 0;
+}
+
+.content p{
+    font-family: 'Agdasima', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.tobi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    grid-gap: 2rem;
+}
+
+.texter{
+    max-width: 350px;
+    margin: 18px auto 53px;
+    font-size: 30px;
+}
+
+.dollars{
+    padding: 60px 16px 100px;
+}
+
+
+.construct{
+    position: relative;
+
+}
+.construct1{
+    position: relative;
+
+}
+.construct2{
+    position: relative;
+
+}
+.construct3{
+    position: relative;
+
+}
+.construct4{
+    position: relative;
+}
+
+
+.iphone img{
+    position: absolute;
+    height: 100px;
+    bottom: 0%;
+    visibility: hidden;
+    right: -1px;
+    width: 100px;
+    transition: all .4s ease;
+}
+
+.tobi div.construct{
+    height: 460px;
+    width: 540px;
+    background-color: #ffffff;
+    color: #0f60d6;
+    border-radius: 30px;
+    box-shadow:  0 1px 0 #ced3da;
+    padding: 30px 10px 30px 30px;
+    transition: all 0.4s ease;
+}
+.tobi div.construct1{
+    height: 460px;
+    width: 540px;
+    color: #2295f2;
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow:  0 1px 0 #ced3da;
+    padding: 30px 10px 30px 30px;
+    transition: all 0.4s ease;
+}
+.tobi div.construct2{
+    height: 460px;
+    width: 540px;
+    background-color: #ffffff;
+    color: #39c277;
+    border-radius: 30px;
+    box-shadow:  0 1px 0 #ced3da;
+    padding: 30px 10px 30px 30px;
+    transition: all 0.4s ease;
+}
+.tobi div.construct3{
+    height: 460px;
+    width: 540px;
+    background-color: #ffffff;
+    color: #e5489b;
+    border-radius: 30px;
+    box-shadow:  0 1px 0 #ced3da;
+    padding: 30px 10px 30px 30px;
+    transition: all 0.4s ease;
+}
+.tobi div.construct4{
+    height: 460px;
+    width: 540px;
+    background-color: #ffffff;
+    color: #0c1825;
+    border-radius: 30px;
+    box-shadow:  0 1px 0 #ced3da;
+    padding: 30px 10px 30px 30px;
+    transition: all 0.4s ease;
+}
+
+
+
+
+h5{
+    font-size: 38px;
+    font-family: 'Belanosima', sans-serif; 
+    margin-top: 25px;
+    margin-bottom: 0%;
+
+}
+
+.tobi div.balloon{
+    height: 308px;
+    width: 580px;
+    text-align: center;
+    color: #122231;
+    padding-top: 148px;
+}
+
+.naz{
+    height: 209px;
+    width: 325px;
+}
+
+.build{
+    display: flex;
+}
+
+.tobi .balloon h3{
+    max-width: 350px;
+    margin: auto;
+    font-size: 48px;
+}
+
+
+.police{
+   color: #3d4f60;
+   transition: color 0.4s ease;
+}
+
+
+.garri{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.tobi div.construct:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #0f60d6;
+    .police{
+        color: white;
+    }
+    .iphone img{
+        right: 5%;
+        height: 303px;
+        bottom: 0%;
+        width: 290px;
+        visibility: visible;
+    }
+    
+}
+.tobi div.construct1:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #2295f2;
+    .police{
+        color: white;
+    }
+    .iphone img{
+        right: 5%;
+        height: 303px;
+        width: 290px;
+        bottom: 0%;
+        visibility: visible;
+    }
+}
+.tobi div.construct2:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #39c277;
+    .police{
+        color: white;
+    }
+    .iphone img{
+        right: 5%;
+        height: 303px;
+        width: 290px;
+        bottom: 0%;
+        visibility: visible;
+    }
+}
+.tobi div.construct3:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #e5489b;
+    .police{
+        color: white;
+    }
+    .iphone img{
+        right: 5%;
+        height: 303px;
+        bottom: 0%;
+        width: 290px;
+        visibility: visible;
+    }
+    
+}
+.tobi div.construct4:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #0c1825;
+    .police{
+        color: white;
+    }
+    .iphone img{
+        right: 5%;
+        height: 303px;
+        width: 290px;
+        bottom: 0%;
+        visibility: visible;
+    }
+}
+
+h2{
+    font-family: 'Belanosima', sans-serif;
+}
+
+.super{
+    max-width: 815px;
+    margin: 0 auto;
+    padding: 10rem 0 4rem;
+    height: 750px;
+}
+
+.monkey{
+    font-size: 30px;
+}
+
+.pox{
+    font-size: 40px;
+}
+
+.ambush{
+    text-align: center;
+}
+
+.dada{
+    margin-top: 80px;
+    position: relative;
+    height: 6%;
+    width: 51px;
+    display: flex;
+    flex-direction: column;
+    background-color:  #f24337;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.dada iframe{
+    position: absolute;
+    object-fit: cover;
+    border: #fff solid 10px;
+    width: 811px;
+    min-height: 465px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.buns12{
+    height: 520px;
+    width: 450px;
+}
+
+.conditioner{
+    padding: 100px 16px;
+    
+}
+
+.compass{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.bisi{
+    width: 512px;
+    height: 520px;
+    padding: 0 10px;
+}
+
+.buns{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.lass{
+    font-size: 40px;
+    width: 500px;
+}
+
+.connor{
+    background-color: white;
+}
+
+.feature{
+   padding: 65px 16px;
+   background: linear-gradient(180deg,#f2f8f4,#fff 33.01%);
+}
+
+.drizzy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1195px;
+    flex-wrap: wrap;
+}
+.racks{
+    display: flex;
+    max-width: 1120px;
+    height: 97px;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 0 2rem;
+
+}
+
+.racks a{
+    width: 160px;
+    height: auto;
+}
+
+.racks a img{
+    width: 160px;
+    height: auto;
+}
+
+ a.brand5 img{
+    height: 40px;
+}
+
+.burna{
+    max-width: 1165px;
+    margin: auto;
+}
+
+footer{
+    background: white;
+    padding: 80px 15px 50px;
+}
+
+.col1{
+    height: 199px;
+    width: 298px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+.problem{
+    width: 80px;
+    height: 150px;
+}
+
+
+.hop{
+    margin-bottom: 8px;
+}
+
+.col2{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+    height: 210px;
+    width: 150px;
+}
+
+.col3{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+    height: 210px;
+    width: 150px;
+}
+
+.col4{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+    height: 210px;
+    width: 150px;
+}
+
+.col5{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+    width: 267px;
+    height: 210px;
+}
+
+
+footer p{
+    font-family: 'Belanosima', sans-serif;
+    margin-top: 0;
+}
+
+footer a{
+    font-family: 'Agdasima', sans-serif;
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    color: #3d4f60;
+}
+
+footer a:hover{
+    color: #0f60d6;
+    transition: color 0.4s ease-in;
+}
+
+.coming{
+    height: 82px;
+    width: 102px;
+}
+.imgcont{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    max-width: 173px;
+}
+
+.dreams{
+    width: 173px;
+    height: 32px;
+    margin-bottom: 25px;
+}
+
+
+.main{
+    height: 240px;
+    max-width: 1195px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.text-right{
+    text-align: right;
+    color: #3d4f60;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 17px;
+    font-weight: 400;
+    
+}
+
+.col5
+
+.text-right:hover{
+    color: #3d4f60;
+}
+
+.text-right1{
+    text-align: right;
+    color: #3d4f60;
+    padding-bottom: 6px;
+    font-size: 17px;
+}
+
+
+.text-right1:hover{
+    color: #0f60d6;
+    transition: color 0.4s ease-in;
+}
+
+.about{
+    padding-top: 26px;
+    margin-bottom: 30px;
+    margin-top: 16;
+    border-top: 0.2px solid hsla(0,0%,74.1%,.5215686275);
+}
+
+.about p{
+    font-family: 'Agdasima', sans-serif;
+    text-align: left;
+    width: 442px;
+    font-size: 12px;
+    margin-bottom: 13px;
+    color: #3d4f60;
+}
+
+.about p.bottom{
+    color: #0f60d6;
+}
+
+.deserve{
+    display: flex;
+    align-items: flex-end;
+}
